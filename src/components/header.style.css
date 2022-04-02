@@ -1,0 +1,38 @@
+.menu-container{
+    display: flex;
+    position: fixed;
+    background-color: rgb(22, 24, 24);
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    margin: 0 auto;
+    position: fixed;
+}
+
+.nav-origin a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    
+    
+}
+
+.nav-menu:hover{
+    background-color: rgb(75, 80, 78);
+    border-radius: 10px;
+    height: 60px;
+    transition: .5s ease-in-out;
+    
+}
+
+.nav-menu{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    
+
+}

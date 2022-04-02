@@ -1,0 +1,15 @@
+.body{
+    display:flex;
+    position : fixed;
+    margin-top:180px;
+    padding-left: 50px;
+
+}
+
+.listas {
+    display:flex;
+    position : relative;
+    
+    margin-left: 30px;
+    padding-top:50px;
+}
