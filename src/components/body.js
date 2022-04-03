@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react'
 import GetApi from '../content/api'
-import './body.style.css'
+import './styles/body.style.css'
 
 const Prueba = () =>{
 
@@ -20,8 +20,6 @@ const Prueba = () =>{
 
     return (
         
-
-
         <div className="body">
             <h1>Usuarios</h1>
             <ul>
@@ -30,13 +28,11 @@ const Prueba = () =>{
                         <li className="listas" key={user.id}>Nombre: {user.name} -Email: {user.email}</li>
                         
                         )
-                    
                 }
             </ul>
         </div>
 
     )
-
     
 }
 
